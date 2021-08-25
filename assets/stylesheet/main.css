@@ -8,5 +8,5 @@
     display: grid;
     width: 360px;
     height: 100%;
-    grid-template-rows: 80px 60% 30%;
+    grid-template-rows: 80px 985px 600px;
 }
