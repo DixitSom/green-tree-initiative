@@ -1,0 +1,12 @@
+.main div{
+    background: transparent;
+    width: 100%;
+    border: black solid 0.1px;
+}
+
+.main {
+    display: grid;
+    width: 360px;
+    height: 100%;
+    grid-template-rows: 80px 60% 30%;
+}
