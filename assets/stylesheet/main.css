@@ -3,6 +3,12 @@
     margin: 0;
   }
 
+  @font-face{
+    font-family: 'flood';
+    src: url('../fonts/Flood.ttf');
+  }
+
+
 
 .main {
     display: grid;
@@ -120,6 +126,62 @@
     font: normal normal 300 14px/24px Helvetica;
     letter-spacing: -0.14px;
     color: #C1F7D5;
+}
+
+.footer {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 2em;
+    margin: 4em;
+}
+
+.footer-first-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+}
+
+.footer-first-row div.footer-title h2 {
+    font: normal normal bold 18px/22px Helvetica;
+    color: #354463;
+}
+
+
+.contact-us {
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+}
+
+.footer-second-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+}
+
+.follow-us span.text , .learn-more span.text{
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal 300 14px/24px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+}
+
+.follow-us span.h-follow-us, .learn-more span.h-learn-more {
+    font: normal normal normal 11px/13px Helvetica;
+    letter-spacing: 0.44px;
+    color: #354463;
+    opacity: 1;
+}
+
+.footer-third-row {
+    justify-self: end;
+    text-align: right;
+    font: normal normal normal 44px/46px Flood Std;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
 }
 
 input, select{
