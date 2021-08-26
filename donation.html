@@ -8,40 +8,46 @@
 </head>
 <body>
     <div class="main">
+
+        <!-- This is main heading -->
         <div class="header">
             The Green <br>
             Trees Initiative
         </div>
+        <!-- Main Section -->
         <div class="section">
             <div class="section-head">
                 Give HOPE to those <br> Who need It most
             </div>
-            <div class="section-body">
-                <form>
-                    <div class="form-div">
-                        <div class="y-info-head">Your Information</div> 
-                        <div class="y-info">
-
-                        
-                        
+            <form>
+                <div class="form-div">
+                    <div class="y-info-head">
+                        <h1> Your information </h1>
+                    </div>      
+                    
+                    <div class="name">
                         <div class="firstname">
-                            <label for="firstname">First Name</label><br>
+                            <label for="firstname">FIRST NAME</label><br>
                             <input type="text" id="firstname" name="firstname" placeholder="First Name"><br>
                         </div>
                         <div class="lastname">
-                            <label for="lastname">Last Name</label><br>
+                            <label for="lastname">LAST NAME</label><br>
                             <input type="text" id="lastname" name="lastname" placeholder="Last Name"><br>
                         </div>
-                        <div class="streetaddress">
-                            <label for="streetaddress">Street Address</label><br>
-                            <input type="text" id="streetaddress" name="streetaddress" placeholder="Street Address" size="43"><br>
-                        </div>
+                    </div>
+                    <div class="streetaddress">
+                        <label for="streetaddress">STREET ADDRESS</label><br>
+                        <input type="text" id="streetaddress" name="streetaddress" placeholder="Street Address" size="43"><br>
+                    </div>
+
+                    <div class="city-state-zip">
                         <div class="city">
-                            <label for="city">City</label><br>
+                            <label for="city">CITY</label><br>
                             <input type="text" id="city" name="city" placeholder="City" size="20"><br>
                         </div>
+                    
                         <div class="state">
-                            <label for="state">State</label><br>
+                            <label for="state">STATE</label><br>
                             <select name="state" id="state">
                                 <option value="">UP</option>
                                 <option value="">MP</option>
@@ -49,40 +55,73 @@
                             </select><br>
                         </div>
                         <div class="zipcode">
-                            <label for="zipcode">Zip</label><br>
+                            <label for="zipcode">ZIP</label><br>
                             <input type="text" id="zipcode" placeholder="Zip" size="5"><br>
                         </div>
-                        <div class="email">
-                            <label for="email">Email Address</label><br>
-                            <input type="email" id="email" name="email" placeholder="Email Address"><br>
+                    </div>
+                    <div class="email">
+                        <label for="email">EMAIL ADDRESS</label><br>
+                        <input type="email" id="email" name="email" placeholder="Email Address"><br>
+                    </div>
+        
+
+                 <!-- payment information from here -->
+            
+                    
+                    <div class="p-info-head">
+                        <h1> Payment information </h1> 
+                    </div>
+                    
+                    <!-- Credit card number -->
+                    <div class="credit-card-info">
+                        <label for="credit-number">CREDIT CARD NUMBER</label>
+                        <input type="text" name="credit-number" id="credit-number" size="20"><br>
+                    </div>
+
+                    <!-- Date and security code -->
+                    <div class="other-info">
+                        <div class="exp-date">
+                            <label for="exp-date"> EXPIRATION DATE</label>
+
+                            <!-- Monthe and Year -->
+                            <div class="month-year">
+                                <div>
+                                    <input type="text" placeholder="MM" id="exp-date" name="month" size="5">
+                                </div>
+                                <div>
+                                    <input type="text" placeholder="YYYY" id="year" name="year" size="10">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Security code -->
+                        <div class="cvv">
+                            <label for="cvv">SECURITY CODE</label>
+                            <input type="text" placeholder="CVV" id="cvv" size="3"><br>
                         </div>
                     </div>
-                    <div class="p-info">
-                        <span class="p-info-head"> Payment Information </span>
-                        
-                        <label for="credit-number">Credit Card Number</label>
-                        <input type="text" name="credit-number" id="credit-number"><br>
-                        <label for="exp-date"> Expiration Date</label>
-                        <input type="text" placeholder="MM" id="exp-date" name="month">
-                        <input type="text" placeholder="YYYY" id="year" name="year"><br>
-                        <label for="cvv">Security Code</label>
-                        <input type="text" placeholder="CVV" id="cvv"><br>
-                    
-                    </div>
+                
+                
 
                     <div class="some-text">
                         Click the button to confirm your donation of $10, recurring monthly.
                     </div>
-                
 
-                    <button type="button" class="submit-btn" value="submit">Process Payment</button>
+                    <div>
+                
+                        <button type="button" class="submit-btn" value="submit">Process Payment</button>
+                    
                     </div>
 
-                    <a href="index.html">Back</a>
+                    <div>
 
+                        <a href="index.html">Back</a>
+                    
+                    </div>
+                </div>
 
-                </form>
-            </div>
+            </form>
+                    
         </div>
         <div class="footer">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos hic est reiciendis accusamus totam delectus fugiat necessitatibus consequuntur nihil corporis?
