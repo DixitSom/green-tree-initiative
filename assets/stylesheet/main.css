@@ -1,11 +1,11 @@
-.main div{
-    /* background: transparent; */
-    width: 100%;
-}
+*{
+    padding: 0;
+    margin: 0;
+  }
+
 
 .main {
     display: grid;
-    width: 100%;
     grid-template-rows: 80px 985px 600px;
 }
 
@@ -32,9 +32,6 @@
 }
 
 
-.section div {
-    width: 100%;
-}
 
 .section-head {
     font: normal normal normal 32px/46px Flood Std;
@@ -46,29 +43,38 @@
 
 
 .form-div {
-    height: 90%;
+    /* height: 90%; */
+    margin: 1em;
     display: grid;
-    padding: 1em;
-    row-gap: 1em;
-    grid-template-columns: auto;
+    padding: 2em;
+    row-gap: 2em;
+    grid-template-columns: 1fr;
     justify-content: center;
     background: #354463 0% 0% no-repeat padding-box;
+    color: white;
     opacity: 1;
     align-content: space-around;
 }
 
+.form-div label {
+    font: normal normal normal 11px/13px Helvetica;
+}
+
+.form-div h1 {
+    font: normal normal bold 22px/28px Helvetica;
+}
 
 
 .name {
     display: grid;
     grid-template-columns: auto auto;
-    column-gap: 1em;
+    column-gap: 2em;
 }
 
 .city-state-zip {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
-    column-gap: 1em;
+    column-gap: 2em;
 }
 
 
@@ -92,6 +98,29 @@
     column-gap: 0.5em;
 }
 
+.submit-btn {
+    width: 249px;
+    height: 49px;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+    justify-self: center;
+    font: normal normal bold 16px/20px Helvetica;
+    color: #354463;;
+}
+
+.some-text{
+    font: normal normal bold 18px/22px Helvetica;
+
+    color: #FFFFFF;
+}
+
+.form-div a {
+    text-decoration: underline;
+    font: normal normal 300 14px/24px Helvetica;
+    letter-spacing: -0.14px;
+    color: #C1F7D5;
+}
 
 input, select{
     width: 100%;
