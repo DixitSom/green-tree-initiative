@@ -20,6 +20,26 @@
 
 
 .section {
-    background-image: url("../../media/donation/annie-spratt-427340-unsplash.png");
+    background-image: url("../../media/donation/annie-spratt-427340-unsplash-\(1\).png");
     opacity: 0.63;
+    background-position: center;
+    background-size: cover;
+    
+
+    display: grid;
+    grid-template-rows: 79px 816px;
+    justify-content: center;
+    align-content: space-around;
+}
+
+
+.section div {
+    width: 312;
+}
+
+.section-head {
+    font: normal normal normal 32px/46px Flood Std;
+    color: #FFFFFF;
+    opacity: 1;
+    text-align: center;
 }
