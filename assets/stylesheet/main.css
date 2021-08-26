@@ -1,5 +1,5 @@
 .main div{
-    background: transparent;
+    /* background: transparent; */
     width: 100%;
 }
 
@@ -16,4 +16,10 @@
     font: normal normal bold 18px/22px Helvetica;
     color: #354463;
     background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+
+.section {
+    background-image: url("../../media/donation/annie-spratt-427340-unsplash.png");
+    opacity: 0.63;
 }
