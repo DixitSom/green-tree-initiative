@@ -561,6 +561,104 @@
     .tree-plant-btn, .edu-train-btn, .adv-camp-btn {
     
         align-self: stretch;
-
     }
+}
+
+/* Section-3 Ends Here */
+
+/* Section-4 starts from here */
+
+.section-4 {
+    display: grid;
+    row-gap: 1em;
+    padding: 3em;
+
+
+    background: transparent url('../../media/home/did-you-know-background.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: 100%;
+    background-size: cover;
+}
+
+.quote {
+    display: grid;
+    row-gap: 1em;
+}
+
+.quote-text {
+    text-align: left;
+    font: normal normal normal 3em/1.1em flood-std;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.quote-btn {
+    width: 12em;
+    height: 3em;
+    font: normal normal bold 1em/0.7em Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+
+.other-things {
+    display: grid;
+    row-gap: 1em;
+    /* column-gap: 2em; */
+}
+
+.did-you-know {
+    justify-self: center;
+    transform: translate(0, 100%);
+}
+
+.out-of, .h-million, .t-perc, .t-million {
+    display: grid;
+    padding: 1.5em;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    row-gap: 0.7em;
+}
+
+.other-things div.head {
+    text-align: left;
+    font: normal normal bold 1.5em/1.7em Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+
+.other-things div.text{
+    text-align: left;
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+}
+
+.other-things div.twitter {
+    display: flex;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    grid-row: 1;
+    grid-column: 2;
+    align-items: center;
+    justify-content: center;
+}
+
+.other-things div.facebook {
+    display: flex;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    grid-row: 2;
+    grid-column: 2;
+    align-items: center;
+    justify-content: center;
 }
