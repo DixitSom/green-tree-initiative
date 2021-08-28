@@ -715,6 +715,101 @@
 
 /* Section-4 Ends Here */
 
+/* Section-5 stats from here */
+
+.section-5{
+    display: grid;
+    padding: 2em;
+    row-gap: 2em;
+}
+
+.stories {
+    display: grid;
+    grid-template-rows: 1fr 7fr;
+}
+
+.story-img {
+    background: transparent url('../../media/home/lady-baby.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+}
+
+.story-btn {
+    justify-self: center;
+    transform: translateY(50%);
+}
+
+.person {
+    display: grid;
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 2em;
+    row-gap: 1em;
+}
+
+.person div.p-quote {
+    text-align: center;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.person div.p-text{
+    text-align: center;
+    font: normal normal normal 11px/13px Helvetica;
+    letter-spacing: 0.44px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.wrapper {
+    display: grid;
+    row-gap: 2em;
+}
+
+.p-btn {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    font: normal normal bold 18px/22px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+    width: 10em;
+    height: 2.5em;
+}
+
+@media only screen and (min-width: 420px) and (max-width:768px) {
+    /* .section-5{
+        row-gap: ;
+    } */
+
+    .stories {
+        padding: 0 6em 0 3em;
+    }
+
+    .story-btn {
+        justify-self: start;
+        margin-left: 2em;
+    }
+
+    .wrapper {
+        transform: translateY(-25%);
+        margin: 0 3em 0 6em;
+        display: grid;
+        row-gap: 2em;
+    }
+
+    .p-btn {
+        justify-self: start;
+    }
+}
+
+
+
 
 
 
@@ -808,3 +903,4 @@
         text-align: left;
     }
 }
+
