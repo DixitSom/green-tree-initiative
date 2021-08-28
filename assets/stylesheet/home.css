@@ -808,7 +808,34 @@
     }
 }
 
+@media only screen and (min-width:768px) {
+    .section-5{
+        grid-template-columns: 1fr 1.5fr;
+    }
 
+    .stories{
+        order: 1;
+        margin-right: 5em;
+    }
+
+    .story-btn{
+        justify-self: start;
+        margin-left: 2em;
+        transform: translateY(130%);
+    }
+
+    .wrapper {
+        transform: translateX(25%);
+        margin-top: 6em;
+        padding: 4em;
+    }
+
+    .p-btn{
+        justify-self: start;
+    }
+}
+
+/* Section-5 Ends here */
 
 
 
