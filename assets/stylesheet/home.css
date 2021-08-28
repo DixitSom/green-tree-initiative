@@ -662,3 +662,30 @@
     align-items: center;
     justify-content: center;
 }
+
+/* Tablate View for section 4 */
+
+@media only screen and (min-width: 420px) and (max-width: 768px) {
+    .section-4 {
+        display: grid;
+        row-gap: 1em;
+        padding: 3em;
+        grid-template-columns: 1fr 1fr;
+    }
+    .quote {
+        margin-top: 3em;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .did-you-know {
+        justify-self: start;
+        transform: translate(15%, 100%);
+    }
+
+    .quote-btn {
+        transform: translateY(-5em);
+    }
+    
+}
+
+/* Tablet View Ends here */
