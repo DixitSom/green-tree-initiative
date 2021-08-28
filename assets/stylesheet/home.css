@@ -438,3 +438,68 @@
     background: transparent url('../../media/home/advocacy.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+
+/* Tablet View for section-3 */
+
+@media only screen and (min-width: 420px) and (max-width: 768px) {
+
+    .section-3 {
+        padding: 3.5em;
+    }
+
+    .what-we-do  {
+        justify-self: left;
+        color: #354463;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+    }
+    
+    .our-mission-text {
+        text-align: left;
+        font: normal normal bold 36px/46px Helvetica;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    .tree-plant, .edu-train, .adv-camp {
+        padding: 2em 2em 0 2em;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 2em;
+        row-gap: 2em;
+    }
+
+    .tree-plant-text, .edu-train-text, .adv-camp-text {
+        grid-column: 2 / 3;
+        grid-row: 2 / 5;
+        text-align: left;
+        font: normal normal 300 16px/24px Helvetica;
+        letter-spacing: -0.16px;
+        color: #354463;
+        opacity: 1;
+    }
+
+    .tree-plant-head, .edu-train-head, .adv-camp-head {
+        text-align: left;
+        font: normal normal bold 22px/28px Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+    }
+
+    .tree-plant-btn, .edu-train-btn, .adv-camp-btn {
+        width: 10em;
+        height: 3em;
+        grid-row: 3;
+        grid-column: 1;
+        align-self: center;
+        justify-self: right;
+    }
+
+    .tree-plant-img, .edu-train-img, .adv-camp-img {
+        transform: translate(0, -30%);
+        grid-row: 1 / 4;
+        grid-column: 1;
+    }
+
+}
