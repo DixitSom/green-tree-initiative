@@ -837,6 +837,8 @@
 
 /* Section-5 Ends here */
 
+
+
 /* Section-6 starts from here */
 
 .section-6 {
@@ -901,6 +903,73 @@
     color: #FFFFFF;
     opacity: 1;
 }
+
+/* Tablet view for section 6 is from here */
+
+@media only screen and (min-width: 420px) and (max-width: 768px) {
+
+    .section-6 {
+        grid-template-rows: 0.3fr 1fr 1fr;
+        row-gap: 0;
+        padding-bottom: 1em;
+    }
+
+    .section-6 div.head {
+        text-align: left;
+        
+        /* padding: 5em 3em 3em 3em;; */
+    }
+    .news, .event {
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        'img btn'
+        'img head'
+        'img text'
+        '. text'
+        '. read-more';
+        column-gap: 2em;
+    }
+
+    .news {
+        grid-template-areas:
+        'btn img'
+        'head img'
+        'text img'
+        'text .'
+        'read-more .';
+    }
+
+    .news-btn, .event-btn{
+        justify-self: left;
+        grid-area: btn;
+        transform: translate(0, 0);
+    }
+
+    .news-img, .event-img {
+        grid-area: img;
+    }
+
+    .news-head, .event-head {
+        grid-area: head;
+        text-align: left;
+    }
+
+    .news div.text, .event div.text {
+        grid-area: text;
+        text-align: left;
+    }
+    .news div.btn, .event div.btn {
+        grid-area: read-more;
+        align-self: end;
+        grid-row: 4;
+    }
+}
+
+
+
+
 
 /* Section-7 subscribe starts from here */
 
