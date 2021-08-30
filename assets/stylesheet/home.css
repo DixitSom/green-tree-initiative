@@ -906,11 +906,11 @@
 
 /* Tablet view for section 6 is from here */
 
-@media only screen and (min-width: 420px) and (max-width: 768px) {
+@media only screen and (min-width: 420px) {
 
     .section-6 {
         grid-template-rows: 0.3fr 1fr 1fr;
-        row-gap: 0;
+        row-gap: 1em;
         padding-bottom: 1em;
     }
 
@@ -959,15 +959,43 @@
     .news div.text, .event div.text {
         grid-area: text;
         text-align: left;
+        font: normal normal normal 1em/1em Helvetica;
     }
     .news div.btn, .event div.btn {
         grid-area: read-more;
-        align-self: end;
-        grid-row: 4;
+        /* align-self: end; */
+        /* grid-row: 4; */
     }
 }
 
+/* Desktop View for Section 6 */
+@media only screen and (min-width: 768px) {
 
+    .news, .event {
+
+        grid-template-rows: 0.1fr 1fr 1fr 1fr;
+        padding: 0 4em 0 4em;
+        column-gap: 5em;
+    }
+
+    .section-6 div.head {
+        
+        padding: 0 1em 0 1em;
+        font: normal normal normal 72px/76px flood-std;
+
+    }
+
+    .event-head, .news-head {
+        font: normal normal bold 44px/56px Helvetica;
+    }
+
+    .section-6 div.text {
+        font: normal normal 300 20px/32px Helvetica;
+    }
+
+}
+
+/* Section 6 Ends here */
 
 
 
