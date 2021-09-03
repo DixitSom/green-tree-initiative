@@ -393,15 +393,16 @@
 .tree-plant, .edu-train, .adv-camp {
     display: grid;
     padding: 0 1.5em 1em 1.5em;
-    grid-template-rows: 4fr 1fr 2fr 2fr;
-    /* row-gap: em; */
+    /* grid-template-rows: 4fr 1fr 2fr 2fr; */
+    grid-template-rows: auto auto auto auto;
+    row-gap: 1em;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
 .tree-plant-head, .edu-train-head, .adv-camp-head {
     text-align: center;
-    font: normal normal bold 18px/22px Helvetica;
+    font: normal normal bold 1.5em/1.18em Helvetica;
     letter-spacing: 0px;
     color: #354463;
     opacity: 1;
@@ -409,7 +410,7 @@
 
 .tree-plant-text, .edu-train-text, .adv-camp-text {
     text-align: center;
-    font: normal normal 300 14px/20px Helvetica;
+    font: normal normal 300 0.9em/1.5em Helvetica;
     letter-spacing: -0.14px;
     color: #354463;
     opacity: 1;
@@ -422,15 +423,19 @@
     justify-self: center;
 }
 
-.tree-plant-img, .edu-train-img, .adv-camp-img {
-    background: transparent url('../../media/home/tree-planting.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+.tree-plant-img img, .edu-train-img img, .adv-camp-img img{
+    /* background: transparent url('../../media/home/tree-planting.png') 0% 0% no-repeat padding-box; */
+    /* opacity: 1;
     background-size: 100%;
-    /* background-position: center; */
+    background-position: center; */
+    max-height: 10em;
+    max-width: 20em;
+    height: 100%;
+    width: 100%;
     transform: translate(0, -15%);
 }
 
-.edu-train-img {
+/* .edu-train-img {
     background: transparent url('../../media/home/education-training.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -438,7 +443,7 @@
 .adv-camp-img {
     background: transparent url('../../media/home/advocacy.png') 0% 0% no-repeat padding-box;
     opacity: 1;
-}
+} */
 
 /* Tablet View for section-mission */
 
@@ -463,9 +468,9 @@
     }
 
     .tree-plant, .edu-train, .adv-camp {
-        padding: 2em 2em 0 2em;
+        padding: 2em 2em 2em 2em;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
         column-gap: 2em;
         row-gap: 2em;
     }
@@ -498,7 +503,7 @@
     }
 
     .tree-plant-img, .edu-train-img, .adv-camp-img {
-        transform: translate(0, -30%);
+        transform: translate(0, -15%);
         grid-row: 1 / 4;
         grid-column: 1;
     }
@@ -537,7 +542,7 @@
     .tree-plant, .edu-train, .adv-camp {
         display: grid;
         padding: 0 1.5em 1em 1.5em;
-        grid-template-rows: 2fr 1fr 2fr 1fr;
+        grid-template-rows: auto auto auto auto;
         row-gap: 1em;
         background: #FFFFFF 0% 0% no-repeat padding-box;
         opacity: 1;
@@ -555,7 +560,7 @@
     }
 
     .tree-plant-img, .edu-train-img, .adv-camp-img {
-        transform: translate(2.5em, -1.5em);
+        transform: translate(2.5em, -10%);
     }
 
     .tree-plant-btn, .edu-train-btn, .adv-camp-btn {
