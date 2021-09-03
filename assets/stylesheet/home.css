@@ -719,8 +719,8 @@
 
 .section-story{
     display: grid;
-    padding: 2em;
-    row-gap: 2em;
+    padding: 2rem;
+    row-gap: 2rem;
 }
 
 .stories {
@@ -731,6 +731,8 @@
 .story-img {
     background: transparent url('../../media/home/lady-baby.png') 0% 0% no-repeat padding-box;
     opacity: 1;
+    height: 100%;
+    max-height: 30em;
     background-size: cover;
     background-position: center;
 }
@@ -750,7 +752,7 @@
 
 .person div.p-quote {
     text-align: center;
-    font: normal normal bold 22px/28px Helvetica;
+    font: normal normal bold 1.1em/1.2em Helvetica;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
@@ -797,7 +799,7 @@
     }
 
     .wrapper {
-        transform: translateY(-25%);
+        transform: translateY(-30%);
         margin: 0 3em 0 6em;
         display: grid;
         row-gap: 2em;
@@ -815,19 +817,20 @@
 
     .stories{
         order: 1;
-        margin-right: 5em;
+        margin-right: 5rem;
     }
 
     .story-btn{
         justify-self: start;
         margin-left: 2em;
-        transform: translateY(130%);
+        transform: translateY(5rem);
     }
 
     .wrapper {
         transform: translateX(25%);
-        margin-top: 6em;
-        padding: 4em;
+        margin-top: 6rem;
+        padding: 3em;
+        /* max-height: 20em; */
     }
 
     .p-btn{
