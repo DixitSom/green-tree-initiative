@@ -174,7 +174,7 @@
 
 /* Section-1 that contains Intro */
 
-.section-1 {
+.section-issue {
     display: grid;
     background: transparent url('../../media/home/annie-spratt-135307-unsplash.png') 0% 0% no-repeat padding-box;
     /* opacity: 0.76; */
@@ -185,7 +185,7 @@
     padding: 2em;
 }
 
-.section-1-heading {
+.section-issue-heading {
     text-align: left;
     font: normal normal normal 44px/46px flood-std;
     letter-spacing: 0px;
@@ -235,11 +235,11 @@
 
 @media only screen and (min-width: 420px) and (max-width: 768px) {
 
-    .section-1 {
+    .section-issue {
         padding: 3em;
     }
     
-    /* .section-1-heading {
+    /* .section-issue-heading {
          padding: 1em; 
     } */
 
@@ -267,18 +267,18 @@
     }
 }
 
-/* Desktop View for section-1 */
+/* Desktop View for section-issue */
 
 @media only screen and (min-width: 768px) {
 
-    .section-1 {
+    .section-issue {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         justify-content: space-between;
         padding: 5em;
     }
 
-    .section-1-heading {
+    .section-issue-heading {
         order: 1;
         padding-left: 2em;
     }
@@ -308,21 +308,21 @@
 
 /* Section-1 Ends Here */
 
-/* Section-2 stats here */
+/* section-action stats here */
 
-.section-2 {
+.section-action {
     display: grid;
     background: #C1F7D5 0% 0% no-repeat padding-box;
     opacity: 1;
     grid-template-rows: 0.5fr 4fr;
 }
 
-.section-2-head {
+.section-action-head {
     justify-self: center;
     transform: translate(0, -50%);
 }
 
-.section-2-content {
+.section-action-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 1em;
@@ -331,7 +331,7 @@
 
 }
 
-.section-2-content h1{
+.section-action-content h1{
     text-align: left;
     font: normal normal bold 18px/22px Helvetica;
     letter-spacing: 0px;
@@ -339,7 +339,7 @@
     opacity: 1;
 }
 
-.section-2-content p{
+.section-action-content p{
     text-align: left;
     font: normal normal 300 14px/20px Helvetica;
     letter-spacing: -0.14px;
@@ -350,7 +350,7 @@
 /* Desktop View from here */
 
 @media only screen and (min-width: 768px) {
-    .section-2-content {
+    .section-action-content {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr;
@@ -364,7 +364,7 @@
 
 /* Section 3 starts from here */
 
-.section-3 {
+.section-mission {
     display: grid;
     row-gap: 4em;
     padding: 2em;
@@ -440,11 +440,11 @@
     opacity: 1;
 }
 
-/* Tablet View for section-3 */
+/* Tablet View for section-mission */
 
 @media only screen and (min-width: 420px) and (max-width: 768px) {
 
-    .section-3 {
+    .section-mission {
         padding: 3.5em;
     }
 
@@ -505,10 +505,10 @@
 
 }
 
-/* Desktop veiw for section-3 from here */
+/* Desktop veiw for section-mission from here */
 
 @media only screen and (min-width: 768px) {
-    .section-3 {
+    .section-mission {
         padding: 5em;
         grid-template-columns: 1fr 1fr 1fr;
         row-gap: 3em;
@@ -564,11 +564,11 @@
     }
 }
 
-/* Section-3 Ends Here */
+/* section-mission Ends Here */
 
-/* Section-4 starts from here */
+/* section-quote starts from here */
 
-.section-4 {
+.section-quote {
     display: grid;
     row-gap: 1em;
     padding: 3em;
@@ -666,7 +666,7 @@
 /* Tablate View for section 4 */
 
 @media only screen and (min-width: 420px) and (max-width: 768px) {
-    .section-4 {
+    .section-quote {
         display: grid;
         row-gap: 1em;
         padding: 3em;
@@ -691,7 +691,7 @@
 /* Tablet View Ends here */
 
 @media only screen and (min-width: 768px) {
-    .section-4 {
+    .section-quote {
         display: grid;
         row-gap: 1em;
         padding: 2em 3em 2em 3em;
@@ -713,11 +713,11 @@
     }
 }
 
-/* Section-4 Ends Here */
+/* section-quote Ends Here */
 
-/* Section-5 stats from here */
+/* section-story stats from here */
 
-.section-5{
+.section-story{
     display: grid;
     padding: 2em;
     row-gap: 2em;
@@ -783,7 +783,7 @@
 }
 
 @media only screen and (min-width: 420px) and (max-width:768px) {
-    /* .section-5{
+    /* .section-story{
         row-gap: ;
     } */
 
@@ -809,7 +809,7 @@
 }
 
 @media only screen and (min-width:768px) {
-    .section-5{
+    .section-story{
         grid-template-columns: 1fr 1.5fr;
     }
 
@@ -835,13 +835,13 @@
     }
 }
 
-/* Section-5 Ends here */
+/* section-story Ends here */
 
 
 
-/* Section-6 starts from here */
+/* section-event starts from here */
 
-.section-6 {
+.section-event {
     display: grid;
     padding: 5em 2em 3em 2em;
     background: #354463 0% 0% no-repeat padding-box;
@@ -849,7 +849,7 @@
     row-gap: 2em;
 }
 
-.section-6 div.head{
+.section-event div.head{
     text-align: center;
     font: normal normal normal 3em/1em flood-std;
     letter-spacing: 0px;
@@ -908,13 +908,13 @@
 
 @media only screen and (min-width: 420px) {
 
-    .section-6 {
+    .section-event {
         grid-template-rows: 0.3fr 1fr 1fr;
         row-gap: 1em;
         padding-bottom: 1em;
     }
 
-    .section-6 div.head {
+    .section-event div.head {
         text-align: left;
         
         /* padding: 5em 3em 3em 3em;; */
@@ -978,7 +978,7 @@
         column-gap: 5em;
     }
 
-    .section-6 div.head {
+    .section-event div.head {
         
         padding: 0 1em 0 1em;
         font: normal normal normal 72px/76px flood-std;
@@ -989,7 +989,7 @@
         font: normal normal bold 44px/56px Helvetica;
     }
 
-    .section-6 div.text {
+    .section-event div.text {
         font: normal normal 300 20px/32px Helvetica;
     }
 
@@ -999,9 +999,9 @@
 
 
 
-/* Section-7 subscribe starts from here */
+/* section-sub subscribe starts from here */
 
-.section-7 {
+.section-sub {
     display: grid;
     background: #C1F7D5 0% 0% no-repeat padding-box;
     grid-template-columns: 1fr 1fr 1fr;
@@ -1058,7 +1058,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .section-7{
+    .section-sub{
         grid-template-columns: 2fr 1fr 1fr;
         padding: 4em;
     }
@@ -1080,7 +1080,7 @@
     }
 }
 
-/* Section-7 Subsctive section ends here */
+/* section-sub Subsctive section ends here */
 
 /* Footer Starts from here */
 
